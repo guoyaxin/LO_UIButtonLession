@@ -41,7 +41,6 @@ public class CreatButton : MonoBehaviour
 		UIButton btn = go.AddComponent<UIButton> ();
 		//增加button的点击方法
 		EventDelegate.Add (btn.onClick, BtnClick);
-
 	}
 
 	/**
